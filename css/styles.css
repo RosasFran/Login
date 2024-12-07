@@ -1,0 +1,105 @@
+:root {
+    --principal: #7f33f1;
+    --secundario:  #7d3ca9;
+    --grey:  #e6d4d4;
+    --ocuro: #000;
+    --white: #ffffff;
+    --font: "Krub", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--font);
+    background-color: var(--principal);
+}
+
+.titulo {
+    text-align: center;
+    color: var(--white);
+    font-size: 2.5rem;
+    max-width: 20rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3rem;
+    background-color: var(--grey);
+}
+
+/** Formulario **/
+.section {
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 3.5rem ;
+    background-color: var(--white);
+    border-radius: 2rem;
+    height: 40rem;
+}
+
+.formilario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login {
+    font-size: 3rem;
+    color: var(--ocuro);
+    font-weight: 700;
+    font-family: var(--font);
+}
+
+.user-pass {
+    padding: 2rem;
+}
+
+.label {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.in3 {
+    background-color: var(--grey);
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    width: 28rem;;
+    font-size: 1.5rem;
+}
+
+.boton {
+    border: none;
+    width: 17rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: var(--secundario);
+    color: var(--white);
+    font-size: 2rem;
+    font-family: var(--font);
+}
+
+.boton:hover {
+    background-color: var(--ocuro);
+    color: var(--principal);
+}
+
+/** Footer **/
+.footer {
+    text-align: center;
+    padding-top: 27rem;
+    color: var(--white);
+    font-size: 2rem;
+    font-family: var(--font);
+}
