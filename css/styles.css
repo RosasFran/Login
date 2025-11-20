@@ -4,6 +4,8 @@
     --grey:  #e6d4d4;
     --ocuro: #000;
     --white: #ffffff;
+    --verde: #0ff175;
+    --rojo: #e80c0c;;
     --font: "Krub", sans-serif;
 }
 
@@ -20,6 +22,30 @@ body {
     font-size: 16px;
     font-family: var(--font);
     background-color: var(--principal);
+}
+
+h2 {
+   font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: .5rem;
+    border-radius: .5rem; 
+}
+
+h3 {
+    background-color: blue;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background-color: #e80c0c;
+    padding: .5rem;
+    border-radius: .5rem;
 }
 
 .titulo {
@@ -47,7 +73,7 @@ body {
     height: 40rem;
 }
 
-.formilario {
+.formulario {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,8 +88,9 @@ body {
 }
 
 .user-pass {
-    padding: 2rem;
+    padding: 1rem;
 }
+
 
 .label {
     font-size: 1.7rem;
@@ -95,6 +122,12 @@ body {
     color: var(--principal);
 }
 
+.p-rrafo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--secundario);
+}
+
 /** Footer **/
 .footer {
     text-align: center;
@@ -102,4 +135,14 @@ body {
     color: var(--white);
     font-size: 2rem;
     font-family: var(--font);
+}
+
+.error {
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: var(--font);
+    padding: .8rem;
+    border-radius: .4rem;
+    color: var(--white);
+    background-color: rgb(224, 28, 28);
 }

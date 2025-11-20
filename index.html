@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="preload" href="css/normalize.css" as="styles">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/styles.css" as="styles">
+   
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -17,19 +16,20 @@
                 <img class="icon" src="img/wepik.png" alt="Icono">
         </div>
         <section class="section">
-            <form class="formilario">
+            <form class="formulario" id="form">
                 <legend class="login">Login</legend>
                 <div class="user-pass">
                     <label class="label" for="">Username</label>
-                    <input id="username" class="in3" type="text" placeholder="username">
+                    <input id="username" class="in3" name="username" type="text" placeholder="username">
                 </div>
                 <div class="user-pass">
                     <label class="label" for="">Password</label>
-                    <input id="password" class="in3" type="password" placeholder="password">
+                    <input id="password" class="in3" name="password" type="password" placeholder="password">
                 </div>
                 <div class="user-pass">
-                    <input class="boton" type="submit" value="Login">
+                    <input id="input" class="boton" type="submit" value="Login">
                 </div>
+                <h3 class="parrafo-form"></h3>
             </form>
         </section>
     </header>
